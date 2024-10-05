@@ -1,0 +1,151 @@
+.hero{
+    max-width: 100%;
+    min-height:auto;
+    padding:0 80px;
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+  
+   background:  #6565ff;
+}
+@media (max-width:940px){
+
+    .hero{
+       
+        padding:0 30px;
+    }
+}
+@media (max-width:835px){
+
+    .hero{
+      
+        padding:0 10px;
+    }
+     .hero .left h1{
+        font-size:26px;
+        line-height:35px;
+     }   
+     .para{
+        display: flex;
+        margin-top:20px;
+        flex-direction: column;
+     } 
+    .left .para p{
+        margin-left: 0;
+        color:white;
+        margin-top:5px;
+     }
+ 
+   
+}
+@media (max-width:615px){
+    .hero{
+        padding:0 30px;
+       flex-direction: column;
+       padding-top:50px;
+       max-width: 100%;
+    min-height:auto;
+ 
+    display: flex;
+    align-items: center;
+  justify-content:no;
+  
+   background:  #6565ff;
+    }
+ 
+
+    
+.hero .header-img{
+    min-width:100%;
+    margin:0;
+    padding:0;
+ 
+} 
+.hero .left{
+    min-width:100%;
+    min-height:auto;
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero .header-img{
+   
+   margin:0;
+   padding:0;
+  
+}
+.hero .left .para .group-img{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:35%;
+}
+.hero .header-img{
+    
+    margin-top:10px; 
+}
+}
+
+
+
+
+
+
+.hero  .header-img{
+    width:50%;
+    
+    margin-top:150px; 
+ 
+}  
+
+   
+
+.hero h1{
+    color:white;
+    line-height: 45px;
+    font-size:40px;
+    text-transform: capitalize;
+}
+.hero .left{
+    width:50%;
+    height:50%;
+    margin-top:40px;
+   
+}
+ .para{
+    display: flex;
+    margin-top:20px;
+ }  
+ .para p{
+    margin-left:15px;
+    color:white;
+    margin-top:5px;
+ }
+.para .group-img{
+    width:100px;
+    height:50px;
+}
+.btn{
+    background: white;
+    color:black;
+    margin-top:15px;
+    width:180px;
+    height:40px;
+    border-radius:19px;
+    border:none;
+    outline: none;
+    transition: 0.3s ease;
+}
+.btn i{
+    margin-left:5px;
+} 
+  .btn:hover{
+    background:#6565ff;
+    color:white;
+    border:3px solid white;
+  }  
+   
+ 

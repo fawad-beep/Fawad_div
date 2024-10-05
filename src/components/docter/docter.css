@@ -1,0 +1,74 @@
+.docters{
+    max-width:100%;
+    min-height:100vh;
+    padding:5px 80px;
+}
+ .docters .docter-top{
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:25px;
+ }   
+ .docter-top p{
+    margin:10px 0;
+ }
+ .docter-boxs{
+    width:100%;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+}
+   
+ .docter-boxs .box{
+    width:200px;
+    height:270px;
+    border:1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.docter-boxs .box:hover{
+    transform: translatey(-15px);
+ } 
+ .docter-boxs .box .box-img{
+     width:100%;
+     background: rgb(232, 232, 255);
+    height:70%;
+ }
+ .docter-boxs .box img{
+    width:100%;
+    height:100%;
+ }
+ .docter-boxs .box-content li{
+    list-style:circle;
+    margin:5px 0;
+    color:green;
+    cursor: pointer;
+    font-size:12px;
+ }
+ .docter-boxs .box-content {
+    margin-left:10px;
+    margin-top:10px;
+ }
+ .docter-boxs .box-content h4{
+    margin:5px 0;
+ }
+ .docter-boxs .box-content p{
+   font-size:12px;
+ }
+ .docter-btn{
+    background:rgb(232, 232, 255);
+    display: block;
+    margin:15px auto;
+    border:2px solid #6565ff;
+    color:#6565ff;
+    transition: 0.3s ease;
+ }
+ .docter-btn:hover{
+    background:#6565ff;
+    color:white;
+ }
+
+ 
