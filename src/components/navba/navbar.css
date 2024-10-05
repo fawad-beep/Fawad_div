@@ -24,6 +24,7 @@
     .navbar button{
         width:110px;
         margin-right:50px;
+        font-size: 13px;
     }
 }
 button{
